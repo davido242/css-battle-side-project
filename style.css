@@ -1,0 +1,52 @@
+body {
+    background: #191919;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 0;
+    margin-top: 170px;
+
+}
+
+.note {
+    width: 50px;
+    height: 40px;
+    background: #FE5F55;
+    border-radius: 50%;
+    position: relative;
+}
+
+.a {
+    margin-left: -30px;
+}
+
+.c {
+    background-color: #A64942;
+}
+
+.up {
+    position: absolute;
+    background: inherit;
+    width: 10px;
+    height: 100px;
+    bottom: 50%;
+    right: 0;
+}
+
+.side {
+    background: inherit;
+    position: absolute;
+    top: -80px;
+    right: -60%;
+    height: 10px;
+    width: 40px;
+}
+
+.long {
+    width: 60px;
+    right: -120%;
+}
+
+.down {
+    top: -60px;
+}
